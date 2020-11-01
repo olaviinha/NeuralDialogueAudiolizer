@@ -10,7 +10,7 @@ It was made to run in [Google Colaboratory](https://colab.research.google.com/) 
 
 **Two dialogue formats are supported:**
 1) `question_and_answer` expects an empty line between every time speaker changes.
-2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed no matter what name will occur in the beginning, will probably improve this later to take names into account.
+2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed despite the name in the beginning, will probably improve this later to take names into account.
 
 See the notebook for more details.
 
