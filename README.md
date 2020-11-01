@@ -10,7 +10,7 @@ It was made to run in [Google Colaboratory](https://colab.research.google.com/) 
 - Google TTS: [Before you begin](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#before-you-begin)
 - Amazon Polly: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
-**Two dialogue formats are supported:**
+**Input should be a .txt file containing dialogue in one of the following formats:**
 1) `question_and_answer` expects an empty line between every time speaker changes.
 2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed despite the name in the beginning, will probably improve this later to take names into account.
 
