@@ -18,4 +18,4 @@ See the notebook for more details.
 
 Source text | Result
 ------------ | ------------
-[gpt-3_chat-1.txt](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt) | [gpt-3_chat-1.wav](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt)
+[gpt-3_chat-1.txt](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt) | [gpt-3_chat-1.wav](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.wav)
