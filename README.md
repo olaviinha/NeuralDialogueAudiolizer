@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb)
 
-Neural Interview Audiolizer is a "_.txt to .wav" notebook that turns textual dialogue (e.g. interview, chat) of two individuals to audio dialogue using [Google Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech). It uses two selectable and configurable WaveNet voices.
+Neural Interview Audiolizer is a ".txt to .wav" notebook that turns textual dialogue (e.g. interview, chat) of two individuals to audio dialogue using [Google Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech). It uses two selectable and configurable WaveNet voices.
 
 It was made to run in [Google Colaboratory](https://colab.research.google.com/) (i.e. your browser), using [your Google Drive](https://drive.google.com/drive/my-drive) as data source and storage.
 
