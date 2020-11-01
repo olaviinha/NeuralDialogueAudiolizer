@@ -2,11 +2,13 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb)
 
-Neural Interview Audiolizer is a ".txt to .wav" notebook that turns textual dialogue (e.g. interview, chat) of two individuals to audio dialogue using [Google Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech). It uses two selectable and configurable WaveNet voices.
+Neural Interview Audiolizer is a ".txt to .wav" notebook that turns textual dialogue (e.g. an interview, a chat) of two individuals to audio dialogue using either [Google Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech) or [Amazon Polly Text-to-Speech API](https://aws.amazon.com/polly/).
 
 It was made to run in [Google Colaboratory](https://colab.research.google.com/) (i.e. your browser), using [your Google Drive](https://drive.google.com/drive/my-drive) as data source and storage.
 
-**Note** that using this notebooks requires access to Google's Text-to-Speech API with an API key. See [this page](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#before-you-begin) for more information on how to obtain access.
+**Note** that using either Google Cloud TTS or Amazon Polly TTS **require access keys**. More information:
+- Google TTS: [Before you begin](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#before-you-begin)
+- Amazon Polly: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
 **Two dialogue formats are supported:**
 1) `question_and_answer` expects an empty line between every time speaker changes.
@@ -16,6 +18,6 @@ See the notebook for more details.
 
 ## Audio demos
 
-Source text | Result
------------- | ------------
-[gpt-3_chat-1.txt](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt) | [gpt-3_chat-1.wav](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.wav)
+Source text | Google Cloud TTS | Amazon Polly TTS
+------------ | ------------ | ------------
+[gpt-3_chat-1.txt](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_google_tts_kzcl.wav) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_polly_mpfi.wav)
