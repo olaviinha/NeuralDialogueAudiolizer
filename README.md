@@ -6,7 +6,7 @@ Neural Interview Audiolizer is a ".txt to .wav" notebook that turns textual dial
 
 It was made to run in [Google Colaboratory](https://colab.research.google.com/) (i.e. your browser), using [your Google Drive](https://drive.google.com/drive/my-drive) as data source and storage.
 
-**Note** that you will need your own access keys to use both Google Cloud TTS and Amazon Polly TTS. More information on obtaining access:
+**Note** that you will need your own access keys to use either Google Cloud TTS or Amazon Polly TTS. More information on obtaining required keys:
 - Google TTS: [Before you begin](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#before-you-begin)
 - Amazon Polly: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
