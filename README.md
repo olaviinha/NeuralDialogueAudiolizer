@@ -14,7 +14,7 @@ It was made to run in [Google Colaboratory](https://colab.research.google.com/) 
 1) `question_and_answer` expects an empty line between every time speaker changes.
 2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed despite the name in the beginning, will probably improve this later to take names into account.
 
-See the notebook for more details.
+See [the notebook](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb) for more details.
 
 ## Audio demos
 
