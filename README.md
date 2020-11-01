@@ -12,7 +12,7 @@ It was made to run in [Google Colaboratory](https://colab.research.google.com/) 
 
 **Input should be a .txt file containing dialogue in one of the following formats:**
 1) `question_and_answer` expects an empty line between every time speaker changes.
-2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed despite the name in the beginning, will probably improve this later to take names into account.
+2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed despite the name in the beginning, i.e. if there are two consecutive lines beginning with _John:_, the notebook will still interpret the second as _Bob_, and your result is messed up. This will be improved in the distant future, perhaps.
 
 See [the notebook](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb) for more details.
 
