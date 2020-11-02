@@ -17,6 +17,8 @@ Input should be path to a .txt file located in your Google Drive, containing the
 
 See [the notebook](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb) for more details.
 
+⇨ [Run NeuralInterviewAudiolizer.ipynb](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb)
+
 ## Audio demos
 
 Source text | Google Cloud TTS | Amazon Polly TTS
