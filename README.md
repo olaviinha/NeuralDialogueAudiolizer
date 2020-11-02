@@ -7,8 +7,8 @@ Neural Interview Audiolizer is a **".txt to .wav converter"** that turns textual
 It was made to run in [Google Colaboratory](https://colab.research.google.com/) (i.e. your browser), using [your Google Drive](https://drive.google.com/drive/my-drive) as data source and storage.
 
 **Note that you will need access with necessary access keys to use either one of the provided TTS APIs.** More information on obtaining access:
-- Google TTS: [Before you begin](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#before-you-begin)
-- Amazon Polly: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
+- to Google Cloud TTS API: [Before you begin](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#before-you-begin)
+- to Amazon Polly TTS API: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
 ## Input text
 Input should be path to a .txt file located in your Google Drive, containing the dialogue in one of the following formats, with no other text. If your input material is a copy-paste from the interwebs, make sure to clean it up first to strictly follow one of these formats.
