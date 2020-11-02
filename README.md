@@ -20,4 +20,4 @@ See [the notebook](https://colab.research.google.com/github/olaviinha/NeuralInte
 
 Source text | Google Cloud TTS | Amazon Polly TTS
 ------------ | ------------ | ------------
-[gpt-3_chat-1.txt](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_google_tts_kzcl.wav) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_polly_mpfi.wav)
+[gpt-3_chat-1.txt](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_google_tts_kzcl.wav) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_polly_mpfi.wav) (winner)
