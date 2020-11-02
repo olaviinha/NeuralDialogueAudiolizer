@@ -2,11 +2,11 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb)
 
-Neural Interview Audiolizer is a **".txt to .wav converter"** that turns textual dialogue (e.g. an interview, a chat) of two individuals to audio dialogue with two freely selectable voices, currently using either [Google Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech) (wavenet voices only) or [Amazon Polly Text-to-Speech API](https://aws.amazon.com/polly/) (neural engine voices only).
+Neural Interview Audiolizer is a **".txt to .wav converter"** that turns textual dialogue (e.g. an interview, a chat) between two individuals to audio dialogue with two freely selectable voices, currently using either [Google Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech) (wavenet voices only) or [Amazon Polly Text-to-Speech API](https://aws.amazon.com/polly/) (neural engine voices only).
 
 It was made to run in [Google Colaboratory](https://colab.research.google.com/) (i.e. your browser), using [your Google Drive](https://drive.google.com/drive/my-drive) as data source and storage.
 
-**Note** that you will need access with necessary access keys to use either Google Cloud TTS or Amazon Polly TTS. More information on obtaining access:
+**Note** that you will need access with necessary access keys to use either one of provided TSS APIs. More information on obtaining access:
 - Google TTS: [Before you begin](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#before-you-begin)
 - Amazon Polly: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
