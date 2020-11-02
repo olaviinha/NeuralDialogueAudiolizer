@@ -11,8 +11,8 @@ It was made to run in [Google Colaboratory](https://colab.research.google.com/) 
 - Amazon Polly: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
 ## Input text
-Input should be path to a .txt file located in your Google Drive, containing the dialogue in one of the following formats, with no other text.
-1) `question_and_answer` expects an empty line between every time speaker changes.
+Input should be path to a .txt file located in your Google Drive, containing the dialogue in one of the following formats, with no other text. If your input material is a copy-paste from the interwebs, make sure to clean it up first to strictly follow one of these formats.
+1) `question_and_answer` expects an empty line between every time speaker changes. 
 2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed despite the name in the beginning, i.e. if there are two consecutive lines beginning with _John:_, the notebook will still interpret the second as _Bob_, and your result is messed up. This will be improved in the distant future, perhaps.
 
 See [the notebook](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb) for more details.
