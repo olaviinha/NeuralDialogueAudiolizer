@@ -26,10 +26,8 @@ Also note that neural voices are available only in specific regions in all of th
 
 ## Input text
 Input should be path to a .txt file located in your Google Drive, containing the dialogue in one of the following formats, with no other text. If your input material is a copy-paste from the interwebs, make sure to clean it up first to strictly follow one of these formats.
-1) `question_and_answer` expects an empty line between every time speaker changes. 
-2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed despite the name in the beginning, i.e. if there are two consecutive lines beginning with _John:_, the notebook will still interpret the second as _Bob_, and your result is messed up. This will be improved in the distant future, perhaps.
-
-See [the notebook](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb) for more details.
+1) `question_and_answer` expects an empty line between every time speaker changes. [See example](https://raw.githubusercontent.com/olaviinha/NeuralInterviewAudiolizer/main/example_question_and_answer.txt)
+2) `dialogue_with_names` expects `Name:` (e.g. _John: Hello Bob! How are you?_) every time speaker changes. Speaker is changed despite the name in the beginning, i.e. if there are two consecutive lines beginning with _John:_, the notebook will still interpret the second as _Bob_, and your result is messed up. This will be improved in the distant future, perhaps. [See example](https://raw.githubusercontent.com/olaviinha/NeuralInterviewAudiolizer/main/example_dialogue_with_names.txt)
 
 ## Languages
 This notebook has only English and Finnish voices by default. To add other languages, add the correct language names to `p1_voice` and `p2_voice` menus from [Google Cloud TTS voice list](https://cloud.google.com/text-to-speech/docs/voices), [Amazon Polly TTS voice list](https://docs.aws.amazon.com/polly/latest/dg/voicelist.html) or [Microsoft Azure TTS voice list](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support#text-to-speech)
