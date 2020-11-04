@@ -25,7 +25,7 @@ See [the notebook](https://colab.research.google.com/github/olaviinha/NeuralInte
 
 Source text | Google Cloud TTS | Amazon Polly TTS | Microsoft Azure TTS
 ------------ | ------------ | ------------ | ------------
-[gpt-3_chat-1.txt](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_google_tts_kzcl.wav) (looser) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_polly_mpfi.wav) |  [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_azure_zzwo.wav) (winner)
+[gpt-3_chat-1.txt](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/gpt-3_chat-1.txt) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_google_tts_kzcl.wav) (loser) | [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_polly_mpfi.wav) |  [WAV](https://storage.googleapis.com/olaviinha/github/neural-interview-audiolizer/chat-1_azure_zzwo.wav) (winner)
 
 ## Languages
 This notebook has only English and Finnish voices by default. To add other languages, add the correct language names to `p1_voice` and `p2_voice` menus from [Google Cloud TTS voice list](https://cloud.google.com/text-to-speech/docs/voices), [Amazon Polly TTS voice list](https://docs.aws.amazon.com/polly/latest/dg/voicelist.html) or [Microsoft Azure TTS voice list](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support#text-to-speech)
