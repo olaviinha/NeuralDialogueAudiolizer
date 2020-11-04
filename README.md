@@ -1,6 +1,6 @@
-# Neural Interview Audiolizer
+# Neural Dialogue Audiolizer
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/NeuralDialogueAudiolizer/blob/main/NeuralDialogueAudiolizer.ipynb)
 
 Neural Interview Audiolizer is a **".txt to .wav converter"** that turns textual dialogue (e.g. an interview, a chat) between two individuals to audio dialogue with two freely selectable voices, currently featuring
 - [Google Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech) (wavenet voices only)
@@ -36,4 +36,4 @@ This notebook has only English and Finnish voices by default. To add other langu
 
 ---
 
-⇨ [Run NeuralInterviewAudiolizer.ipynb](https://colab.research.google.com/github/olaviinha/NeuralInterviewAudiolizer/blob/main/NeuralInterviewAudiolizer.ipynb)
+⇨ [Run NeuralDialogueAudiolizer.ipynb](https://colab.research.google.com/github/olaviinha/NeuralDialogueAudiolizer/blob/main/NeuralDialogueAudiolizer.ipynb)
