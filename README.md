@@ -24,6 +24,8 @@ Source text | Google Cloud TTS | Amazon Polly TTS | Microsoft Azure TTS
 
 Note that neural voices are available only in specific regions in all of these services. Select location accordingly when enabling the service/API.
 
+While creating accounts may require billing/credit card information and **prices may apply**, each of these services should provide a limited usage of these APIs per month free of charge.
+
 ## Input text
 Input should be path to a .txt file located in your Google Drive, containing the dialogue in one of the following formats, with no other text. If your input material is a copy-paste from the interwebs, make sure to clean it up first to strictly follow one of these formats.
 1) `question_and_answer` expects an empty line between every time speaker changes. [See example](https://raw.githubusercontent.com/olaviinha/NeuralInterviewAudiolizer/main/example_question_and_answer.txt)
