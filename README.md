@@ -17,7 +17,7 @@ Source text | Google Cloud TTS | Amazon Polly TTS | Microsoft Azure TTS
 
 ## API access
 
-**Access with necessary access keys is required to use any one of the provided TTS APIs.** More information on obtaining access:
+**Access with necessary access keys is required to use any of the provided TTS APIs.** More information on obtaining access:
 - to Google Cloud TTS API: [Before you begin](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#before-you-begin)
 - to Amazon Polly TTS API: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 - to Microsoft Azure TTS API: [Create the Azure resource](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/overview#create-the-azure-resource)
