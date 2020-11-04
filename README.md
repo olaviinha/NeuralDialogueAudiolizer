@@ -22,9 +22,9 @@ Source text | Google Cloud TTS | Amazon Polly TTS | Microsoft Azure TTS
 - to Amazon Polly TTS API: [AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 - to Microsoft Azure TTS API: [Create the Azure resource](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/overview#create-the-azure-resource)
 
-Note that neural voices are available only in specific regions in all of these services. Select location accordingly when enabling the service/API.
+Note that neural voices are available only in specific regions in all of these services. Select location accordingly when enabling the service/API where necessary.
 
-While billing/credit card information may be required, account creation to all of these services, as well as limited monthly usage of these TTS APIs is free of charge to the best of my knowledge.
+While billing/credit card information may be required, account creation to all of these services as well as limited monthly usage of these TTS APIs is free of charge to the best of my knowledge.
 
 ## Input text
 Input should be path to a .txt file located in your Google Drive, containing the dialogue in one of the following formats, with no other text. If your input material is a copy-paste from the interwebs, make sure to clean it up first to strictly follow one of these formats.
