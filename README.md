@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/NeuralDialogueAudiolizer/blob/main/NeuralDialogueAudiolizer.ipynb)
 
-Neural Interview Audiolizer is a **".txt to .wav converter"** that turns textual dialogue (e.g. an interview, a chat) between two individuals to audio dialogue with two freely selectable voices, currently featuring
+Neural Dialogue Audiolizer is a **".txt to .wav converter"** that turns textual dialogue (e.g. an interview, a chat) between two individuals to audio dialogue with two freely selectable voices, currently featuring
 - [Google Cloud Text-to-Speech API](https://cloud.google.com/text-to-speech) (wavenet voices only)
 - [Amazon Polly Text-to-Speech API](https://aws.amazon.com/polly/) (neural engine voices only)
 - [Microsoft Azure Text-to-Speech API](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/) (neural voices only).
