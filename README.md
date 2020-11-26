@@ -24,7 +24,7 @@ Source text | Google Cloud TTS | Amazon Polly TTS | Microsoft Azure TTS
 
 Note that neural voices are available only in specific regions in all of these services. Select location accordingly when enabling the service/API where necessary.
 
-While billing/credit card information may be required, account creation to all of these services as well as limited monthly usage of these TTS APIs is free of charge to the best of my knowledge.
+Note that **costs may apply**. At the time of writing this, to the best of my knowledge, account creation to all of these services as well as limited monthly usage of these TTS APIs is free of charge, even if billing/credit card information is already required upon registration.
 
 ## Input text
 Input should be path to a .txt file located in your Google Drive, containing the dialogue in one of the following formats, with no other text. If your input material is a copy-paste from the interwebs, make sure to clean it up first to strictly follow one of these formats.
